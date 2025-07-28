@@ -1,7 +1,7 @@
 import { ErrorState } from "@/components/error-state";
 import { LoadingState } from "@/components/loading-state";
 import { AgentsListHeader } from "@/modules/agents/ui/agents-list-header";
-import { AgentsView } from "@/modules/agents/views/agents-view";
+import { AgentsView } from "@/modules/agents/ui/views/agents-view";
 import { getQueryClient, trpc } from "@/trpc/server";
 import { HydrationBoundary, dehydrate } from "@tanstack/react-query";
 import { Suspense } from "react";
