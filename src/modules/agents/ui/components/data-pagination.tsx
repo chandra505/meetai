@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 interface Props {
   page: number;
   totalPages: number;
-  onPageChange: (page: number) => void;
+  onPageChange: (page: any) => void;
 }
 
 export const DataPagination = ({ page, totalPages, onPageChange }: Props) => {
